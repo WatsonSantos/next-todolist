@@ -1,12 +1,12 @@
 <br>
 <p align="center">
- <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WatsonSantos/mi-repos?color=%2304D361">
- <img alt="Repository size" src="https://img.shields.io/github/repo-size/WatsonSantos/mi-repos">
- <a href="https://github.com/WatsonSantos/mi-repos/commits/master" target="_blank" >
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WatsonSantos/mi-repos"></a>
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WatsonSantos/next-todolist?color=%2304D361">
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/WatsonSantos/next-todolist">
+ <a href="https://github.com/WatsonSantos/next-todolist/commits/master" target="_blank" >
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WatsonSantos/next-todolist"></a>
  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
- <a href="https://github.com/WatsonSantos/mi-repos/stargazers" target="_blank">
-      <img alt="Stargazers" src="https://img.shields.io/github/stars/WatsonSantos/mi-repos?style=social"></a>
+ <a href="https://github.com/WatsonSantos/next-todolist/stargazers" target="_blank">
+      <img alt="Stargazers" src="https://img.shields.io/github/stars/WatsonSantos/next-todolist?style=social"></a>
  <a href="www.linkedin.com/in/watson-dos-santos-a1b547182/" target="_blank">
       <img alt="Feito por Wason Santos" src="https://img.shields.io/badge/feito%20por-WatsonSantos-%237519C1"></a>
  <a href="https://www.instagram.com/watson_santos1/" target="_blank">
@@ -20,7 +20,7 @@
 
 ## 💻 Sobre o projeto
 
-<p align="center">🚀 Uma aplicação web/site para listar os reposotórios do GitHub de qualquer utilizador que tenha conta no na plataforma GitHub.</p>
+<p align="center">🚀 Um aplicação de lista de tarefas (Todo list) para que possam ser anotadas as tarefas do dia-a-dia e assim auxiliar no controle das tarefas que têm que ser realizadas.</p>
 
 <br>
 
@@ -36,28 +36,18 @@
 </p>
 <br>
 <h4 align="center"> 
-	🚩   Status:  Em construção...🚀   🚩
+	🚩   Status:  Terminado🚀   🚩
 </h4>
 
 ## ⚙️ Funcionalidades
 
-- ✅ Pesquisa de Uitilizador do Github
-- ✅ Listagem dos Repositórios
-  - Avatar da conta no GitHub
-  - Nome do repositório
-  - Linguagem Utilizada
-  - Data de criação
-- ✅ Botão de retrcoceder á página inicial
-- ✅ Mensagem de sucesso
-- ✅ Mensagem de erro
-- ❌ Vizualização de cada repositório em particular
-  - Nome do reposiório
-  - Descrição
-  - Likes
-  - Commits
-  - Ligunagnes
-  - Size
-  - e mais...
+- ✅ Adicionar uma nova tarefa
+- ✅ Eliminar tarefa
+- ✅ Alterar o status (marcar a tarefa como cnluída ou não) da terefa
+- ✅ Listagem das tarefas
+  - Conteúdo da tarefa
+  - Botão de eliminar
+  - Botão de editar o status
 
 ## 📺 Demonstração
 
@@ -70,7 +60,7 @@
   <img alt="vercel" src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
  </a>
 
-Link para teste: [Mi-repos](https://mi-repos.vercel.app/)
+Link para teste: [Lista de tarefas](https://mi-repos.vercel.app/)
 
 <br>
 
@@ -84,7 +74,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/WatsonSantos/mi-repos>
+$ git clone <https://github.com/WatsonSantos/next-todolist>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd mi-repos
