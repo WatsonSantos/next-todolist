@@ -2,7 +2,7 @@ import prisma from "@/lib/db";
 
 import { useTodoUpdateStore } from "@/store/todoEditeStore";
 
-import Card from "@/components/TodoCard";
+import Card from "@/components/CardTodo";
 
 import { create } from "./actions/todoActions";
 
