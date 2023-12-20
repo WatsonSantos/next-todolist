@@ -38,5 +38,7 @@ next-env.d.ts
 
 .env
 
-./src/store
+/src/store
+/prisma/migrations
+
 .vercel
