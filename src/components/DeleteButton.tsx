@@ -9,7 +9,8 @@ import { DeleteButtonPops } from "@/app/types/todo";
 export default function DeleteButton({ id }: DeleteButtonPops) {
   let [isPending, startTransition] = useTransition();
   return (
-    <span
+    <button
+      disabled
       onClick={(event) => {
         startTransition(() => {
           deleteTodo(id);
@@ -18,6 +19,6 @@ export default function DeleteButton({ id }: DeleteButtonPops) {
       className="cursor-pointer text-red-500"
     >
       {<MdDelete />}
-    </span>
+    </button>
   );
 }

@@ -7,7 +7,7 @@ import { CardProps } from "@/app/types/todo";
 
 const Card: React.FC<CardProps> = ({ id, content, completed, statusColor }) => {
   return (
-    <div className="flex items-center flex-col md:flex-row justify-between w-full mt-4 bg-zinc-100 px-4 md:py-4">
+    <div className=" flex items-center flex-col md:flex-row justify-between w-full mt-4 bg-zinc-100 px-4 md:py-4">
       <p
         className={`${
           completed === true
