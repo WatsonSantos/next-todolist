@@ -82,6 +82,15 @@ $ cd next-todolist
 # Instale as dependências
 $ npm install
 
+# Acesse o arquivo no caminho: prisma/schema.prisma
+# Comenta o datasource db com o provider "postegres" e descomente o provider "sqlite"
+
+
+# Execute o o comando
+$ npx prisma migrate dev --name
+
+## Acesse o componente no cmainho: src/app/components/DeleteButton.jsx e retire a propriedade "disabled" no botão
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
