@@ -60,7 +60,7 @@
   <img alt="vercel" src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
  </a>
 
-Link para teste: [Lista de tarefas](https://mi-repos.vercel.app/)
+Link para teste: [Lista de tarefas](https://)
 
 <br>
 
@@ -77,7 +77,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone <https://github.com/WatsonSantos/next-todolist>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd mi-repos
+$ cd next-todolist
 
 # Instale as dependências
 $ npm install
@@ -92,9 +92,10 @@ $ npm run dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js](https://nodejs.org/)
-- [Next.js](https://nextjs.org/)
-- [javaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/): Forma de rodar o Javascript no servidor.
+- [Next.js](https://nextjs.org/): Framework front-end do javascrit muito poderoso.
+- [Prisma](https://prisma.io/): Um ORM poderso para trabalhar com vários Banco de dados (Postgre, Mysql, MongoDB. SQLite, etc)
+- [Zustend](https://zustand-demo.pmnd.rs/): Um gerenciador de estado moderno e otimizado.
 
 ## 👨‍💻 Autor
 
