@@ -1,28 +1,30 @@
 "use client";
-import React, { ReactNode } from "react";
+import React from "react";
 
-interface CardProps {
-  content: string;
-  markIcon: ReactNode;
-  editIcon: ReactNode;
-  deleteIcon: ReactNode;
-}
+import DeleteButton from "./DeleteButton";
+import UpdateCompletedButton from "./UpdateCompletedStatusButton";
+import { CardProps } from "@/app/types/todo";
 
-const Card: React.FC<CardProps> = ({
-  content,
-  markIcon,
-  editIcon,
-  deleteIcon,
-}) => {
+const Card: React.FC<CardProps> = ({ id, content, completed, statusColor }) => {
   return (
     <div className="flex items-center flex-col md:flex-row justify-between w-full mt-4 bg-zinc-100 px-4 md:py-4">
-      <p className="text-zinc-700 text-base md:text-lg mt-4 mb-4 md:mb-0 md:mt-0">
+      <p
+        className={`${
+          completed === true
+            ? "text-zinc-400  line-through italic"
+            : "text-zinc-700"
+        }  text-base md:text-lg mt-4 mb-4 md:mb-0 md:mt-0`}
+      >
         {content}
       </p>
+
       <div className="flex items-center justify-center space-x-6 mb-4 md:mb-0">
-        <span className="font-bold cursor-pointer text-blue-700">{markIcon}</span>
-        <span className="cursor-pointer text-green-700">{editIcon}</span>
-        <span className="cursor-pointer text-red-500">{deleteIcon}</span>
+        <UpdateCompletedButton
+          id={id}
+          completed={completed}
+          statusColor={statusColor}
+        />
+        <DeleteButton id={id} />
       </div>
     </div>
   );
