@@ -6,17 +6,20 @@ export type TODO = {
   completed: boolean;
 };
 
-
 export type DeleteButtonPops = {
   id: number;
 };
 
+export type UpdateButtonProps = {
+  id: number;
+  completed: boolean;
+  statusColor: string;
+};
 export interface CardProps {
   id: number;
   content: string;
   completed: boolean;
   statusColor: string;
-  
 }
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
