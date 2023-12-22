@@ -104,7 +104,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/): Forma de rodar o Javascript no servidor.
 - [Next.js](https://nextjs.org/): Framework front-end do javascrit muito poderoso.
 - [Prisma](https://prisma.io/): Um ORM poderso para trabalhar com vários Banco de dados (Postgre, Mysql, MongoDB. SQLite, etc)
-- [Zustend](https://zustand-demo.pmnd.rs/): Um gerenciador de estado moderno e otimizado.
 
 ## 👨‍💻 Autor
 
