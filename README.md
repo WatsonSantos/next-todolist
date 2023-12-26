@@ -91,6 +91,8 @@ $ npx prisma migrate dev --name
 
 ## Acesse o componente no cmainho: src/app/components/DeleteButton.jsx e retire a propriedade "disabled" no botão
 
+## Acesse o componente no cmainho: src/app/page.tsx e retire a propriedade "disabled" no botão Add
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
