@@ -31,6 +31,7 @@ export default async function Home() {
               className="text-zinc-700 md:mr-8 w-full md:w-10/12 h-10 px-4 rounded-md outline-none placeholder:text-zinc-400"
             />
             <button
+              disabled
               type="submit"
               className="text-black w-full md:w-2/12 bg-white h-10 rounded-md outline-none mt-4 md:mt-0 text-base font-medium"
             >
